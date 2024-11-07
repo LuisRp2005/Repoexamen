@@ -1,0 +1,69 @@
+/* Estilos para el pie de página */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+}
+
+/* Información de la empresa */
+.footer-info h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Contacto */
+.footer-contact h5 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Links de navegación */
+.footer-links {
+    margin-top: 30px;
+}
+
+.footer-links .list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links .list-inline-item {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    color: red;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .footer-contact .row {
+        text-align: center;
+    }
+    
+    .footer-contact .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .footer-info h4 {
+        font-size: 1.5rem;
+    }
+}

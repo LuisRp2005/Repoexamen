@@ -1,0 +1,71 @@
+/* Estilo general para la sección de Marcas */
+.brands-section {
+    background-color: black;
+    padding: 50px 0;
+}
+
+/* Título de la sección */
+.brands-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Línea roja debajo del título */
+.brands-divider {
+    height: 2px;
+    width: 80px;
+    background-color: red;
+    margin: 20px auto;
+}
+
+/* Subtítulo */
+.brands-subtitle {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* Estilo para los cards de las marcas */
+.brand-card {
+    background-color: #222;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    color: white;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Efecto al pasar el mouse sobre el card */
+.brand-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Estilo para la imagen en el card */
+.brand-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Título de cada marca */
+.brand-card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Descripción de cada marca */
+.brand-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 768px) {
+    .brand-card {
+        margin-bottom: 20px;
+    }
+}

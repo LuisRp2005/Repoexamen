@@ -1,0 +1,33 @@
+.products-section {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.products-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.products-divider {
+    width: 100px;
+    height: 4px;
+    background-color: #ff0000;
+    margin: 0 auto;
+}
+
+.products-subtitle {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.category-buttons .btn {
+    margin: 0 5px;
+}
+
+.product-item {
+    display: none;
+    margin-bottom: 15px;
+}
